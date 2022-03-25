@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header mainTitle="Crypto Charts" />
+    <Header mainTitle="Crypto Chart dfsds" />
   </div>
 </template>
 
