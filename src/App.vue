@@ -2,15 +2,20 @@
   <div>
     <Header mainTitle="Crypto Chart" />
   </div>
+  <div>
+    <Table />
+  </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Table from './components/Table.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
+    Table,
   }
 }
 </script>
@@ -24,6 +29,8 @@ export default {
 }
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #141414;
+  color: whitesmoke;
 }
 .container {
   max-width: 500px;
@@ -56,5 +63,12 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+}
+table {
+  max-width: 75%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
+
 }
 </style>
